@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "747283031984",
+    "firebase_url": "https://login-firebase-4a0c2.firebaseio.com",
+    "project_id": "login-firebase-4a0c2",
+    "storage_bucket": "login-firebase-4a0c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747283031984:android:30b698f31f1fab8b",
+        "android_client_info": {
+          "package_name": "chinatip.login_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747283031984-pk2oerp7e7gg0qpkupn9akl32k9kamco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chinatip.login_firebase",
+            "certificate_hash": "5786c38a68175d53363991623c6f09f00690a892"
+          }
+        },
+        {
+          "client_id": "747283031984-fd41t181fi57lcdbnut5bfiibm8r09ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIySG8Ol3My4I-6DRE63Q9WYT1LKAuFu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747283031984-fd41t181fi57lcdbnut5bfiibm8r09ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
