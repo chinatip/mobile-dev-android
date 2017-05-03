@@ -69,7 +69,7 @@ public class NewPost extends AppCompatActivity {
         });
         //initial Firebase
         mDatabaseRef = FirebaseDatabase.getInstance().getReference();
-        mRootRef = new Firebase("https://login-firebase-4a0c2.appspot.com/").child("User_Details").push();
+        mRootRef = new Firebase("https://login-firebase-4a0c2.firebaseio.com/").child("User_Details").push();
         mStorage = FirebaseStorage.getInstance().getReferenceFromUrl("gs://login-firebase-4a0c2.appspot.com/");
 
         postBtn.setOnClickListener(new View.OnClickListener() {
@@ -95,6 +95,7 @@ public class NewPost extends AppCompatActivity {
                     callGallery();
                 }
         }
+        Toast.makeText(getApplicationContext(), "...", Toast.LENGTH_SHORT).show();
     }
 
     private void callGallery() {
