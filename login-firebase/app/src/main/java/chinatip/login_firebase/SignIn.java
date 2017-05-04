@@ -29,6 +29,7 @@ public class SignIn extends AppCompatActivity {
             finish();
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
         }
+
         signout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +49,7 @@ public class SignIn extends AppCompatActivity {
         viewPost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(getApplicationContext(), ViewPosts.class));
             }
         });
 
